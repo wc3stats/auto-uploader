@@ -1,0 +1,48 @@
+{
+  "name": "wc3stats-auto-uploader",
+  "version": "1.0.1",
+  "description": "Automatically uploads Warcraft III replays to wc3stats.com.",
+  "main": "index.js",
+  "scripts": {
+    "start": "electron .",
+    "build": "electron-builder build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/komodo123/wc3stats-auto-uploader.git"
+  },
+  "author": "Ethan Anders",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/komodo123/wc3stats-auto-uploader/issues"
+  },
+  "homepage": "https://github.com/komodo123/wc3stats-auto-uploader#readme",
+  "devDependencies": {
+    "electron": "^6.0.9",
+    "electron-builder": "^21.2.0",
+    "electron-installer-windows": "^2.0.0",
+    "electron-packager": "^14.0.6",
+    "electron-winstaller": "^4.0.0"
+  },
+  "dependencies": {
+    "chokidar": "^3.1.0",
+    "electron-fetch": "^1.3.0",
+    "electron-log": "^3.0.8",
+    "electron-squirrel-startup": "^1.0.0",
+    "form-data": "^2.5.1"
+  },
+  "build": {
+    "productName": "WC3Stats Auto Uploader",
+    "copyright": "Copyright © 2019 WC3Stats",
+    "directories": {
+      "output": "dist"
+    },
+    "files": [
+      "**/*",
+      "icon.*"
+    ],
+    "squirrelWindows": {
+      "iconUrl": "https://wc3stats.com/assets/discord.png"
+    }
+  }
+}
