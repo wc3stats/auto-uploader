@@ -1,6 +1,6 @@
 {
   "name": "wc3stats-auto-uploader",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "description": "Automatically uploads Warcraft III replays to wc3stats.com.",
   "main": "index.js",
   "scripts": {
@@ -25,15 +25,17 @@
     "electron-winstaller": "^4.0.0"
   },
   "dependencies": {
+    "await-semaphore": "^0.1.3",
     "chokidar": "^3.1.0",
     "electron-fetch": "^1.3.0",
     "electron-log": "^3.0.8",
     "electron-squirrel-startup": "^1.0.0",
-    "form-data": "^2.5.1"
+    "form-data": "^2.5.1",
+    "merge-deep": "^3.0.2"
   },
   "build": {
     "productName": "WC3Stats Auto Uploader",
-    "copyright": "Copyright © 2019 WC3Stats",
+    "copyright": "Copyright © 2020 WC3Stats",
     "directories": {
       "output": "dist"
     },
