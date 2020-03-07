@@ -17,6 +17,7 @@
 * **System tray icon** to indicate the program is running with menu items (settings, logs and exit).
 * **Automatically reloads** when the settings file is updated (no need to restart).
 * **Easily uninstallable** in the "Add or remove programs" control panel.
+* **Supports networkio** allowing map editors to [proxy network requests](https://github.com/voces/wc3networkio/blob/master/README.md).
 
 ## Installation
 
