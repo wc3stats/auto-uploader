@@ -61,7 +61,7 @@ app.on ('ready', () => {
     /* Defaults */ require ('./config')
   );
 
-  logger.info (`[General] App version: [v${config.version}]`);
+  logger.info (`[General] App version: [v${config.get ('version')}]`);
 
   /** **/
 

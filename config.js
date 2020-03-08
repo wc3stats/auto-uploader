@@ -15,7 +15,7 @@ module.exports = {
     /**
      * Written on request for 'proxy://version'.
      */
-    version: '1.0',
+    version: 1,
 
     whitelist: [
       'api.wc3stats.com'
