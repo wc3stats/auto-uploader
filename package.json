@@ -31,7 +31,7 @@
     "electron-log": "^3.0.8",
     "electron-squirrel-startup": "^1.0.0",
     "form-data": "^2.5.1",
-    "merge-deep": "^3.0.2"
+    "merge-deep": "^3.0.3"
   },
   "build": {
     "productName": "WC3Stats Auto Uploader",
