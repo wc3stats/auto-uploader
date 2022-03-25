@@ -18,7 +18,7 @@
   },
   "homepage": "https://github.com/komodo123/wc3stats-auto-uploader#readme",
   "devDependencies": {
-    "electron": "^6.0.9",
+    "electron": "^13.6.6",
     "electron-builder": "^21.2.0",
     "electron-installer-windows": "^2.0.0",
     "electron-packager": "^14.0.6",
